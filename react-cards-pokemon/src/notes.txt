@@ -1,0 +1,17 @@
+
+Step Two: useFlip
+//create hooks.js for toggling/flipping to be used in both apps. 
+            // Hook needs to be called useFlip
+            //does not need to take in an arg
+
+Step Three: useAxios in PlayingCardList
+    //create a new function that will have useAxios custom hook
+    //move axios loging in PlayingCardList to new custom hook
+    //should take in a url and function
+    //Refactor PlayingCardList to use custom hook
+
+Step Four: useAxios in PokeDex
+    //modify your useAxios hook 
+    //when you call useAxios you can just provide a base url,
+    //when you want to add to your array of response data in state, you can provide the rest of the url.
+    //Refactor PokeDex to use useAxios
